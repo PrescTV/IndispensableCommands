@@ -1,0 +1,113 @@
+{
+  "command.back.no_death": "No death position recorded.",
+  "command.back.success": "Teleported to your last death position.",
+
+  "command.sethome.success": "§aHome '%name%' set successfully.",
+  "command.sethome.error.limit_or_exists": "§cYou've reached the maximum number of homes (2) or this name already exists.",
+
+  "command.home.success": "§aTeleported to home '%s'.",
+  "command.home.error.not_found": "§cHome '%s' doesn't exist.",
+  "command.home.error.invalid_dimension": "§cError: Invalid home dimension.",
+  "command.home.error.dimension_unavailable": "§cHome dimension is not available. Try recreating the home.",
+
+  "command.homelist.empty": "§6You don't have any homes set.",
+  "command.homelist.header": "§6Your homes (%count%/%max%):",
+  "command.homelist.item": "§6- %name%",
+
+  "command.delhome.success": "§aHome '%s' successfully deleted.",
+  "command.delhome.error.not_found": "§cHome '%s' doesn't exist.",
+
+  "command.tpa.self": "You cannot send a teleport request to yourself.",
+  "command.tpa.cooldown": "Please wait %d seconds before sending another request.",
+  "command.tpa.request": "%s wants to teleport ",
+
+  "command.tpa.no_request_to_deny": "No TP request to deny",
+  "command.tpa.request_denied": "TP request denied",
+  "command.tpa.no_active_request": "No active request",
+  "command.tpa.request_cancelled": "Request cancelled",
+
+  "command.tpa.no_pending_request": "No pending request",
+  "command.tpa.no_request_to_accept": "No request to accept",
+  "command.tpa.sender_teleported": "Teleporting to %target%",
+  "command.tpa.target_teleported": "%sender% has been teleported",
+  "command.tpa.sender_accepted": "Teleport accepted to %target%",
+  "command.tpa.target_accepted": "You accepted %sender%",
+
+  "command.hat.error.empty_hand": "You must hold an item in your hand!",
+  "command.hat.success": "Item placed on your head!",
+
+  "command.helpop.title": "➤ Admin Commands",
+  "command.helpop.setspawn": "Sets the server spawn point",
+  "command.helpop.tpacooldown": "Changes the TPA cooldown",
+  "command.helpop.nick": "Changes the selected player's nickname",
+  "command.helpop.nicklength": "Changes the max nickname length",
+  "command.helpop.nickblacklist": "Modifies allowed nicknames",
+  "command.helpop.freeze": "Freezes a player",
+  "command.helpop.helpop": "Displays admin commands",
+
+  "command.lang.success": "Language set to: %s",
+  "command.lang.unsupported": "Unsupported language. Try: Français, English, Deutsch, Espanol, Hindi, Japanese, Chinese",
+
+  "command.setspawn.success": "World spawn has been set to your location.",
+
+  "command.tpacooldown.set": "TPA cooldown set to %d seconds",
+
+  "command.alert.error.invalid_hex": "Invalid hexadecimal color code",
+  "command.alert.error.invalid_format": "Invalid formatting code: §%code%",
+
+  "command.freeze.error.not_found": "Player not found!",
+  "command.freeze.admin.frozen": "%player% has been frozen!",
+  "command.freeze.admin.unfrozen": "%player% has been unfrozen!",
+  "command.freeze.target.frozen": "Your movements have been frozen by an Administrator.",
+  "command.freeze.target.unfrozen": "Your movements are no longer frozen.",
+
+  "command.nick.invalid": "This nickname is invalid",
+  "command.nick.success": "%s's nickname changed to %s",
+
+  "command.nicklength.set": "Maximum nickname length set to %d",
+  "command.nickblacklist.add": "Added blacklisted nickname: %s",
+  "command.nickblacklist.remove": "Removed blacklisted nickname: %s",
+  "command.nickblacklist.notfound": "Nickname not found in blacklist: %s",
+  "command.nickblacklist.clear": "Nickname blacklist has been cleared.",
+
+  "command.mail.error.player_only": "This command must be executed by a player",
+  "command.mail.header": "\uD83D\uDCE8 New mail from ",
+  "command.mail.sent": "Message sent to %player%",
+
+  "command.reply.error.player_only": "This command must be executed by a player",
+  "command.reply.error.no_message": "You have no message to reply to",
+  "command.reply.error.offline": "The player is no longer online",
+  "command.reply.header": "\uD83D\uDCE8 Reply from ",
+  "command.reply.sent": "Reply sent to %player%",
+
+  "command.spawn.success": "Teleported to spawn.",
+
+  "command.suicide.error.player_only": "This command can only be used by a player",
+  "command.suicide.message": " You have ended your life ☠",
+
+  "command.help.section.admin": "➤ Admin Commands",
+  "command.help.section.teleportation": "➤ Teleportation",
+  "command.help.section.communication": "➤ Communication",
+  "command.help.section.utilities": "➤ Utilities",
+  "command.help.section.help": "➤ Help",
+  "command.help.setspawn": "Sets the server spawn point",
+  "command.help.freeze": "Freezes a player",
+  "command.help.nick": "Changes player's nickname",
+  "command.help.op": "Shows admin commands",
+  "command.help.spawn": "Teleport to spawn",
+  "command.help.back": "Return to your last position",
+  "command.help.sethome": "Creates a home",
+  "command.help.home": "Teleport to a home",
+  "command.help.homelist": "Lists your homes",
+  "command.help.delhome": "Deletes a home",
+  "command.help.mail": "Private message",
+  "command.help.reply": "Reply to last message",
+  "command.help.trash": "Item trash",
+  "command.help.hat": "Puts held item on your head",
+  "command.help.info": "Mod information",
+  "command.help.help": "Shows this message",
+  "command.help.tpa": "Sends a TP request",
+  "command.help.tpyes": "Accepts a TP request",
+  "command.help.tpno" : "Declines a TP request",
+  "command.help.suicide": "Kills you. Plain and simple"
+}

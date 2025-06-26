@@ -1,0 +1,113 @@
+{
+"command.back.no_death": "No se ha registrado una posición de muerte.",
+"command.back.success": "Teletransportado a tu última posición de muerte.",
+
+"command.sethome.success": "§aCasa '%name%' establecida con éxito.",
+"command.sethome.error.limit_or_exists": "§cHas alcanzado el número máximo de casas (2) o este nombre ya existe.",
+
+"command.home.success": "§aTeletransportado a la casa '%s'.",
+"command.home.error.not_found": "§cLa casa '%s' no existe.",
+"command.home.error.invalid_dimension": "§cError: dimensión de la casa inválida.",
+"command.home.error.dimension_unavailable": "§cLa dimensión de la casa no está disponible. Intenta recrear la casa.",
+
+"command.homelist.empty": "§6No tienes ninguna casa establecida.",
+"command.homelist.header": "§6Tus casas (%count%/%max%):",
+"command.homelist.item": "§6- %name%",
+
+"command.delhome.success": "§aCasa '%s' eliminada con éxito.",
+"command.delhome.error.not_found": "§cLa casa '%s' no existe.",
+
+"command.tpa.self": "No puedes enviarte una solicitud de teletransporte a ti mismo.",
+"command.tpa.cooldown": "Espera %d segundos antes de enviar otra solicitud.",
+"command.tpa.request": "%s quiere teletransportarse ",
+
+"command.tpa.no_request_to_deny": "No hay solicitud de TP para negar",
+"command.tpa.request_denied": "Solicitud de TP denegada",
+"command.tpa.no_active_request": "No hay solicitudes activas",
+"command.tpa.request_cancelled": "Solicitud cancelada",
+
+"command.tpa.no_pending_request": "No hay solicitudes pendientes",
+"command.tpa.no_request_to_accept": "No hay solicitud para aceptar",
+"command.tpa.sender_teleported": "Teletransportando a %target%",
+"command.tpa.target_teleported": "%sender% ha sido teletransportado",
+"command.tpa.sender_accepted": "Teleportación aceptada a %target%",
+"command.tpa.target_accepted": "Has aceptado a %sender%",
+
+"command.hat.error.empty_hand": "¡Debes tener un objeto en la mano!",
+"command.hat.success": "¡Objeto colocado en tu cabeza!",
+
+"command.helpop.title": "➤ Comandos de Admin",
+"command.helpop.setspawn": "Establece el punto de aparición del servidor",
+"command.helpop.tpacooldown": "Cambia el tiempo de reutilización del TPA",
+"command.helpop.nick": "Cambia el apodo del jugador seleccionado",
+"command.helpop.nicklength": "Cambia la longitud máxima del apodo",
+"command.helpop.nickblacklist": "Modifica los apodos permitidos",
+"command.helpop.freeze": "Congela a un jugador",
+"command.helpop.helpop": "Muestra comandos de admin",
+
+  "command.lang.success": "Idioma cambiado a: %s",
+  "command.lang.unsupported": "Idioma no soportado. Prueba: Inglés, Francés, Alemán, Español, Hindi, Japonés, Chino",
+
+"command.setspawn.success": "El spawn del mundo se ha establecido en tu ubicación.",
+
+"command.tpacooldown.set": "Cooldown de TPA establecido a %d segundos",
+
+"command.alert.error.invalid_hex": "Código de color hexadecimal inválido",
+"command.alert.error.invalid_format": "Formato de código inválido: §%code%",
+
+"command.freeze.error.not_found": "¡Jugador no encontrado!",
+"command.freeze.admin.frozen": "¡%player% ha sido congelado!",
+"command.freeze.admin.unfrozen": "¡%player% ha sido descongelado!",
+"command.freeze.target.frozen": "Tus movimientos han sido congelados por un Administrador.",
+"command.freeze.target.unfrozen": "Tus movimientos ya no están congelados.",
+
+"command.nick.invalid": "Este apodo es inválido",
+"command.nick.success": "Apodo de %s cambiado a %s",
+
+"command.nicklength.set": "Longitud máxima de apodo establecida a %d",
+"command.nickblacklist.add": "Apodo prohibido añadido: %s",
+"command.nickblacklist.remove": "Apodo prohibido eliminado: %s",
+"command.nickblacklist.notfound": "Apodo no encontrado en la lista negra: %s",
+"command.nickblacklist.clear": "Lista negra de apodos vaciada.",
+
+"command.mail.error.player_only": "Este comando debe ser ejecutado por un jugador",
+"command.mail.header": "📨 Nuevo correo de ",
+"command.mail.sent": "Mensaje enviado a %player%",
+
+"command.reply.error.player_only": "Este comando debe ser ejecutado por un jugador",
+"command.reply.error.no_message": "No tienes ningún mensaje para responder",
+"command.reply.error.offline": "El jugador ya no está en línea",
+"command.reply.header": "📨 Respuesta de ",
+"command.reply.sent": "Respuesta enviada a %player%",
+
+"command.spawn.success": "Teletransportado al punto de spawn.",
+
+"command.suicide.error.player_only": "Este comando sólo puede ser usado por un jugador",
+"command.suicide.message": " Te has quitado la vida ☠",
+
+"command.help.section.admin": "➤ Comandos de Admin",
+"command.help.section.teleportation": "➤ Teleportación",
+"command.help.section.communication": "➤ Comunicación",
+"command.help.section.utilities": "➤ Utilidades",
+"command.help.section.help": "➤ Ayuda",
+"command.help.setspawn": "Establece el punto de spawn",
+"command.help.freeze": "Congela a un jugador",
+"command.help.nick": "Cambia el apodo del jugador",
+"command.help.op": "Muestra comandos de admin",
+"command.help.spawn": "Teletranspórtate al spawn",
+"command.help.back": "Regresa a tu última posición",
+"command.help.sethome": "Crea una casa",
+"command.help.home": "Teletranspórtate a una casa",
+"command.help.homelist": "Lista tus casas",
+"command.help.delhome": "Elimina una casa",
+"command.help.mail": "Mensaje privado",
+"command.help.reply": "Responde al último mensaje",
+"command.help.trash": "Papelera de ítems",
+"command.help.hat": "Pone el objeto en tu cabeza",
+"command.help.info": "Información del mod",
+"command.help.help": "Muestra este mensaje",
+"command.help.tpa": "Envía una solicitud de TP",
+"command.help.tpyes": "Acepta una solicitud de TP",
+"command.help.tpno": "Rechaza una solicitud de TP",
+"command.help.suicide": "Te mata. Punto."
+}

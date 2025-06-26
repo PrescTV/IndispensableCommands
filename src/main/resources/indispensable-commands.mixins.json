@@ -1,0 +1,23 @@
+{
+	"required": true,
+	"package": "net.presc.indispensablecommands.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"entity.DisplayEntityAccessor",
+		"entity.DisplayEntityAccessor$TextDisplayEntityAccessor",
+		"entity.EntityAccessor",
+		"entity.PlayerEntityMixin",
+		"entity.ServerPlayerEntityMixin",
+		"network.EntityPassengersSetS2CPacketMixin",
+		"network.SerializableTeamMixin",
+		"network.ServerCommonNetworkHandlerMixin",
+		"MixinMsgCommand"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,113 @@
+{
+"command.back.no_death": "死亡位置は記録されていません。",
+"command.back.success": "最後に死亡した場所にテレポートしました。",
+
+"command.sethome.success": "§aホーム「%name%」を正常に設定しました。",
+"command.sethome.error.limit_or_exists": "§cホームの上限（2）に達しているか、同じ名前が既に存在します。",
+
+"command.home.success": "§aホーム「%s」にテレポートしました。",
+"command.home.error.not_found": "§cホーム「%s」が見つかりません。",
+"command.home.error.invalid_dimension": "§cエラー：ホームの次元が無効です。",
+"command.home.error.dimension_unavailable": "§cホームの次元は利用できません。ホームを再作成してください。",
+
+"command.homelist.empty": "§6ホームはまだ設定されていません。",
+"command.homelist.header": "§6あなたのホーム (%count%/%max%)：",
+"command.homelist.item": "§6- %name%",
+
+"command.delhome.success": "§aホーム「%s」を正常に削除しました。",
+"command.delhome.error.not_found": "§cホーム「%s」が見つかりません。",
+
+"command.tpa.self": "自分自身にテレポートリクエストを送ることはできません。",
+"command.tpa.cooldown": "%d秒待ってから再度送信してください。",
+"command.tpa.request": "%s がテレポートを要求しています ",
+
+"command.tpa.no_request_to_deny": "拒否するTPリクエストがありません",
+"command.tpa.request_denied": "TPリクエストが拒否されました",
+"command.tpa.no_active_request": "アクティブなリクエストがありません",
+"command.tpa.request_cancelled": "リクエストがキャンセルされました",
+
+"command.tpa.no_pending_request": "保留中のリクエストがありません",
+"command.tpa.no_request_to_accept": "承認するリクエストがありません",
+"command.tpa.sender_teleported": "%target% にテレポートします",
+"command.tpa.target_teleported": "%sender% がテレポートされました",
+"command.tpa.sender_accepted": "%target% へのテレポートを承認しました",
+"command.tpa.target_accepted": "あなたは %sender% を承認しました",
+
+"command.hat.error.empty_hand": "手にアイテムを持っている必要があります！",
+"command.hat.success": "頭にアイテムをかぶせました！",
+
+"command.helpop.title": "➤ 管理者コマンド",
+"command.helpop.setspawn": "サーバーのスポーン地点を設定します",
+"command.helpop.tpacooldown": "TPAのクールダウンを変更します",
+"command.helpop.nick": "選択されたプレイヤーのニックネームを変更します",
+"command.helpop.nicklength": "ニックネームの最大長を変更します",
+"command.helpop.nickblacklist": "ニックネームのブラックリストを編集します",
+"command.helpop.freeze": "プレイヤーを凍結します",
+"command.helpop.helpop": "管理者コマンドを表示します",
+
+  "command.lang.success": "言語を設定しました: %s",
+  "command.lang.unsupported": "サポートされていない言語です。試す: 英語, フランス語, ドイツ語, スペイン語, ヒンディー語, 日本語, 中国語",
+
+"command.setspawn.success": "ワールドのスポーンを現在位置に設定しました。",
+
+"command.tpacooldown.set": "TPAのクールダウンを %d 秒に設定しました",
+
+"command.alert.error.invalid_hex": "無効な16進カラーコードです",
+"command.alert.error.invalid_format": "無効なフォーマットコード：§%code%",
+
+"command.freeze.error.not_found": "プレイヤーが見つかりません！",
+"command.freeze.admin.frozen": "%player% を凍結しました！",
+"command.freeze.admin.unfrozen": "%player% の凍結を解除しました！",
+"command.freeze.target.frozen": "あなたの移動が管理者によって凍結されました。",
+"command.freeze.target.unfrozen": "あなたの移動凍結が解除されました。",
+
+"command.nick.invalid": "このニックネームは無効です",
+"command.nick.success": "%s のニックネームが %s に変更されました",
+
+"command.nicklength.set": "ニックネームの最大長を %d に設定しました",
+"command.nickblacklist.add": "ブラックリストにニックネームを追加しました：%s",
+"command.nickblacklist.remove": "ブラックリストからニックネームを削除しました：%s",
+"command.nickblacklist.notfound": "ブラックリストにニックネームが見つかりません：%s",
+"command.nickblacklist.clear": "ニックネームのブラックリストをクリアしました。",
+
+"command.mail.error.player_only": "このコマンドはプレイヤーのみ実行できます",
+"command.mail.header": "📨 新しいメール：",
+"command.mail.sent": "%player% にメッセージを送信しました",
+
+"command.reply.error.player_only": "このコマンドはプレイヤーのみ実行できます",
+"command.reply.error.no_message": "返信するメッセージがありません",
+"command.reply.error.offline": "プレイヤーは既にオフラインです",
+"command.reply.header": "📨 返信：",
+"command.reply.sent": "%player% に返信しました",
+
+"command.spawn.success": "スポーン地点にテレポートしました。",
+
+"command.suicide.error.player_only": "このコマンドはプレイヤーのみ使用できます",
+"command.suicide.message": " あなたは自分の命を絶ちました ☠",
+
+"command.help.section.admin": "➤ 管理者コマンド",
+"command.help.section.teleportation": "➤ テレポート",
+"command.help.section.communication": "➤ コミュニケーション",
+"command.help.section.utilities": "➤ ユーティリティ",
+"command.help.section.help": "➤ ヘルプ",
+"command.help.setspawn": "スポーン地点を設定",
+"command.help.freeze": "プレイヤーを凍結",
+"command.help.nick": "ニックネームを変更",
+"command.help.op": "管理者コマンドを表示",
+"command.help.spawn": "スポーンへテレポート",
+"command.help.back": "最後の位置に戻る",
+"command.help.sethome": "ホームを作成",
+"command.help.home": "ホームへテレポート",
+"command.help.homelist": "ホームの一覧",
+"command.help.delhome": "ホームを削除",
+"command.help.mail": "プライベートメッセージ",
+"command.help.reply": "最後のメッセージに返信",
+"command.help.trash": "アイテム廃棄",
+"command.help.hat": "手持ちアイテムを頭に置く",
+"command.help.info": "Mod 情報",
+"command.help.help": "このメッセージを表示",
+"command.help.tpa": "TP リクエストを送信",
+"command.help.tpyes": "TP リクエストを承認",
+"command.help.tpno": "TP リクエストを拒否",
+"command.help.suicide": "あなたを殺します。至ってシンプルです。"
+}

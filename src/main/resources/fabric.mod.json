@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1.0,
+	"id": "indispensable-commands",
+	"version": "${version}",
+	"name": "Indispensable Commands",
+	"description": "A cool mod that adds indispensable commands to enhance your vanilla experience like /home, /spawn, /back, /tpa & more !",
+	"authors": [
+		"Presc"
+	],
+	"contact": {
+		"homepage": "https://www.twitch.tv/PrescTv",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/indispensable-commands/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.presc.indispensablecommands.IndispensableCommands"
+		],
+		"fabric-datagen": [
+			"net.presc.indispensablecommands.IndispensableCommandsDataGenerator"
+		],
+		"client": [
+			"net.presc.indispensablecommands.IndispensableCommandsClient"
+		]
+	},
+	"mixins": [
+		"indispensable-commands.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,113 @@
+{
+"command.back.no_death": "未记录死亡位置。",
+"command.back.success": "已传送到上次死亡位置。",
+
+"command.sethome.success": "§a家 ‘%name%’ 设置成功。",
+"command.sethome.error.limit_or_exists": "§c已达到最大家园数(2)或此名称已存在。",
+
+"command.home.success": "§a已传送到家 '%s'。",
+"command.home.error.not_found": "§c家 '%s' 不存在。",
+"command.home.error.invalid_dimension": "§c错误：家园维度无效。",
+"command.home.error.dimension_unavailable": "§c家园维度不可用。请尝试重新创建家园。",
+
+"command.homelist.empty": "§6你还没有设置家。",
+"command.homelist.header": "§6你的家 (%count%/%max%)：",
+"command.homelist.item": "§6- %name%",
+
+"command.delhome.success": "§a已删除家 '%s'。'",
+"command.delhome.error.not_found": "§c家 '%s' 不存在。",
+
+"command.tpa.self": "你不能向自己发送传送请求。",
+"command.tpa.cooldown": "请等待 %d 秒后再发送请求。",
+"command.tpa.request": "%s 想传送 ",
+
+"command.tpa.no_request_to_deny": "没有待拒绝的 TP 请求",
+"command.tpa.request_denied": "TP 请求已拒绝",
+"command.tpa.no_active_request": "没有活跃请求",
+"command.tpa.request_cancelled": "请求已取消",
+
+"command.tpa.no_pending_request": "没有待处理请求",
+"command.tpa.no_request_to_accept": "没有可接受的请求",
+"command.tpa.sender_teleported": "正在传送至 %target%",
+"command.tpa.target_teleported": "%sender% 已被传送",
+"command.tpa.sender_accepted": "已接受传送至 %target%",
+"command.tpa.target_accepted": "你已接受 %sender%",
+
+"command.hat.error.empty_hand": "你手上必须拿着物品！",
+"command.hat.success": "物品已戴在头上！",
+
+"command.helpop.title": "➤ 管理员命令",
+"command.helpop.setspawn": "设置服务器的出生点",
+"command.helpop.tpacooldown": "更改 TPA 冷却时间",
+"command.helpop.nick": "更改所选玩家昵称",
+"command.helpop.nicklength": "更改昵称最大长度",
+"command.helpop.nickblacklist": "修改禁止昵称",
+"command.helpop.freeze": "冻结玩家",
+"command.helpop.helpop": "显示管理员命令",
+
+  "command.lang.success": "语言已设置为: %s",
+  "command.lang.unsupported": "不支持的语言。请尝试: 英语, 法语, 德语, 西班牙语, 印地语, 日语, 中文",
+
+"command.setspawn.success": "世界出生点已设置为你的位置。",
+
+"command.tpacooldown.set": "TPA 冷却时间设置为 %d 秒",
+
+"command.alert.error.invalid_hex": "无效的十六进制颜色代码",
+"command.alert.error.invalid_format": "无效的格式代码：§%code%",
+
+"command.freeze.error.not_found": "未找到玩家！",
+"command.freeze.admin.frozen": "%player% 已被冻结！",
+"command.freeze.admin.unfrozen": "%player% 已解除冻结！",
+"command.freeze.target.frozen": "你的移动已被管理员冻结。",
+"command.freeze.target.unfrozen": "你的移动已解除冻结。",
+
+"command.nick.invalid": "该昵称无效",
+"command.nick.success": "%s 的昵称已更改为 %s",
+
+"command.nicklength.set": "昵称最大长度设置为 %d",
+"command.nickblacklist.add": "禁止昵称已添加：%s",
+"command.nickblacklist.remove": "禁止昵称已移除：%s",
+"command.nickblacklist.notfound": "黑名单中未找到昵称：%s",
+"command.nickblacklist.clear": "昵称黑名单已清除。",
+
+"command.mail.error.player_only": "此命令只能由玩家执行",
+"command.mail.header": "📨 来自 ",
+"command.mail.sent": "消息已发送给 %player%",
+
+"command.reply.error.player_only": "此命令只能由玩家执行",
+"command.reply.error.no_message": "你没有可回复的消息",
+"command.reply.error.offline": "该玩家已离线",
+"command.reply.header": "📨 回复来自 ",
+"command.reply.sent": "已回复 %player%",
+
+"command.spawn.success": "已传送到出生点。",
+
+"command.suicide.error.player_only": "此命令仅限玩家使用",
+"command.suicide.message": " 你结束了自己的生命 ☠",
+
+"command.help.section.admin": "➤ 管理员命令",
+"command.help.section.teleportation": "➤ 传送",
+"command.help.section.communication": "➤ 通信",
+"command.help.section.utilities": "➤ 实用工具",
+"command.help.section.help": "➤ 帮助",
+"command.help.setspawn": "设置出生点",
+"command.help.freeze": "冻结玩家",
+"command.help.nick": "更改玩家昵称",
+"command.help.op": "显示管理员命令",
+"command.help.spawn": "传送到出生点",
+"command.help.back": "回到上一次位置",
+"command.help.sethome": "创建家",
+"command.help.home": "传送到家",
+"command.help.homelist": "列出家",
+"command.help.delhome": "删除家",
+"command.help.mail": "私信发送",
+"command.help.reply": "回复上条消息",
+"command.help.trash": "物品垃圾桶",
+"command.help.hat": "戴上头盔",
+"command.help.info": "模组信息",
+"command.help.help": "显示此消息",
+"command.help.tpa": "发送 TP 请求",
+"command.help.tpyes": "接受 TP 请求",
+"command.help.tpno": "拒绝 TP 请求",
+"command.help.suicide": "自杀。就这么简单。"
+}
