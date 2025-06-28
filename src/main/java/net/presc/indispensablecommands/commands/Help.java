@@ -71,6 +71,7 @@ public class Help {
 
         messages.add(Text.literal(LocalizationManager.getTranslation(playerUuid, "command.help.section.utilities"))
                 .formatted(Formatting.YELLOW, Formatting.BOLD));
+        messages.add(createHelpEntry(playerUuid, "/lang", "command.help.lang"));
         messages.add(createHelpEntry(playerUuid, "/trash", "command.help.trash"));
         messages.add(createHelpEntry(playerUuid, "/hat", "command.help.hat"));
         messages.add(createHelpEntry(playerUuid, "/suicide", "command.help.suicide"));

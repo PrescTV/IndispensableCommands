@@ -109,5 +109,6 @@
   "command.help.tpa": "Envoie une demande de TP",
   "command.help.tpyes": "Accepte une demande de TP",
   "command.help.tpno" : "Refuse une demande de TP",
-  "command.help.suicide": "Vous tue. Tout simplement"
+  "command.help.suicide": "Vous tue. Tout simplement",
+  "command.help.lang": "Change la langue par défaut du mod"
 }

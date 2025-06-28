@@ -109,5 +109,6 @@
 "command.help.tpa": "TP リクエストを送信",
 "command.help.tpyes": "TP リクエストを承認",
 "command.help.tpno": "TP リクエストを拒否",
-"command.help.suicide": "あなたを殺します。至ってシンプルです。"
+"command.help.suicide": "あなたを殺します。至ってシンプルです。",
+  "command.help.lang": "MODのデフォルト言語を変更します"
 }

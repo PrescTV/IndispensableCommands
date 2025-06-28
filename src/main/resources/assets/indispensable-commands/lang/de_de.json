@@ -109,5 +109,6 @@
 "command.help.tpa": "TP‑Anfrage senden",
 "command.help.tpyes": "TP‑Anfrage annehmen",
 "command.help.tpno": "TP‑Anfrage ablehnen",
-"command.help.suicide": "Du bringst dich um. Ganz einfach."
+"command.help.suicide": "Du bringst dich um. Ganz einfach.",
+  "command.help.lang": "Ändert die Standardsprache des Mods"
 }

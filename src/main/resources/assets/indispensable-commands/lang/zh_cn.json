@@ -109,5 +109,6 @@
 "command.help.tpa": "发送 TP 请求",
 "command.help.tpyes": "接受 TP 请求",
 "command.help.tpno": "拒绝 TP 请求",
-"command.help.suicide": "自杀。就这么简单。"
+"command.help.suicide": "自杀。就这么简单。",
+  "command.help.lang": "更改模组的默认语言"
 }

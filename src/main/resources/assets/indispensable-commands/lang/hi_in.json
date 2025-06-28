@@ -109,5 +109,6 @@
 "command.help.tpa": "TP अनुरोध भेजें",
 "command.help.tpyes": "TP अनुरोध स्वीकार करें",
 "command.help.tpno": "TP अनुरोध अस्वीकार करें",
-"command.help.suicide": "आप खुदखुशी कर लेते हैं। बस इतना ही।"
+"command.help.suicide": "आप खुदखुशी कर लेते हैं। बस इतना ही।",
+  "command.help.lang": "मॉड की डिफ़ॉल्ट भाषा बदलें"
 }
