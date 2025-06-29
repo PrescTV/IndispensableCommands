@@ -27,7 +27,7 @@ public class NickConfig {
                 return GSON.fromJson(json, NickConfig.class);
             }
         } catch (IOException e) {
-            IndispensableCommands.LOGGER.error("Unable to read nickconfig.json", e);
+            IndispensableCommands.LOGGER.error("Unable to read congis.json", e);
         }
 
         NickConfig config = new NickConfig();
@@ -42,7 +42,7 @@ public class NickConfig {
             String json = GSON.toJson(this);
             Files.writeString(configPath, json);
         } catch (IOException e) {
-            IndispensableCommands.LOGGER.error("Error writing nickconfig.json", e);
+            IndispensableCommands.LOGGER.error("Error writing configs.json", e);
         }
     }
 
